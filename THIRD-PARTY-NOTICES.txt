@@ -28,6 +28,16 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ------------------------------------------------------------
+ai-runtime-win-x64.zip (also in every CPU folder: noavx, avx, avx2, avx512)
+Component: Microsoft Visual C++ Runtime 14.51 (msvcp140.dll, vcruntime140.dll, vcruntime140_1.dll, vcomp140.dll)
+License: Microsoft Visual Studio license terms (Distributable Code)
+Copyright (c) Microsoft Corporation. All rights reserved.
+Source: Visual Studio, VC\Redist\MSVC\14.51.36231\x64 (Microsoft.VC145.CRT and Microsoft.VC145.OpenMP)
+Distributable list: https://learn.microsoft.com/en-us/visualstudio/releases/2026/redistribution
+The files are unmodified. They are included so the AI add-on also works on PCs
+without the Microsoft Visual C++ Redistributable.
+
+------------------------------------------------------------
 Qwen3.5-4B-Q4_K_M.gguf (.001 / .002 / .003)
 Component: Qwen3.5-4B (GGUF quantization by Unsloth)
 License: Apache License 2.0 (full text: LICENSE file in this repository)
