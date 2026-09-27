@@ -4,7 +4,8 @@ The release files of this repository are used by the optional AI add-on of MySor
 
 ------------------------------------------------------------
 ai-runtime-win-x64.zip
-Component: llama.cpp / ggml (native libraries from LLamaSharp.Backend.Cpu 0.27.0)
+Component: llama.cpp / ggml (native libraries from LLamaSharp.Backend.Cpu 0.27.0 and
+LLamaSharp.Backend.Vulkan.Windows 0.27.0, folder vulkan)
 License: MIT
 Copyright (c) 2023-2026 The ggml authors
 Copyright (c) 2025 SciSharp STACK
@@ -28,7 +29,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ------------------------------------------------------------
-ai-runtime-win-x64.zip (also in every CPU folder: noavx, avx, avx2, avx512)
+ai-runtime-win-x64.zip (graphics card folder vulkan)
+Component: Khronos Vulkan-Headers (compiled into ggml-vulkan.dll)
+License: Apache-2.0 OR MIT
+Copyright The Khronos Group Inc.
+
+------------------------------------------------------------
+ai-runtime-win-x64.zip (in every CPU folder: noavx, avx, avx2, avx512, and in the
+graphics card folder vulkan: msvcp140.dll, vcruntime140.dll, vcruntime140_1.dll)
 Component: Microsoft Visual C++ Runtime 14.51 (msvcp140.dll, vcruntime140.dll, vcruntime140_1.dll, vcomp140.dll)
 License: Microsoft Visual Studio license terms (Distributable Code)
 Copyright (c) Microsoft Corporation. All rights reserved.
